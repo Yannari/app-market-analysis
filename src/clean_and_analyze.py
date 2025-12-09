@@ -387,8 +387,8 @@ def compute_google_category_avg_installs(google_data):
 def main():
     # 1. Load and clean basic structure
     apple_data, google_data, header_apple_data, header_google_data = load_and_clean_datasets(
-        'Documents/Dataset/AppleStore.csv',
-        'Documents/Dataset/googleplaystore.csv'
+        'data/AppleStore.csv',
+        'data/googleplaystore.csv'
     )
 
     # Optional: quick peek at data
